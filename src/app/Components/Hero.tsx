@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Image from "next/image";
 import { Github, Linkedin, Twitter, Mail, Award, BookOpen, Users, Globe } from "lucide-react";
 
@@ -20,7 +20,7 @@ const Hero = () => {
             HEC-Approved Supervisor<br />
             Lecturer & Researcher
           </p>
-          
+
           {/* Achievement Badges */}
           <div className="grid grid-cols-2 gap-3 mt-6">
             <div className="flex items-center gap-2 px-3 py-2 bg-teal-50 rounded-lg">
@@ -60,8 +60,8 @@ const Hero = () => {
 
         <div className="text-gray-800 max-w-2xl">
           <p className="mb-5 text-lg leading-relaxed">
-            A dedicated academic and professional with years of experience in both academia and the software industry. 
-            As an <strong>HEC-approved supervisor</strong>, I've mentored numerous students toward innovation and excellence, 
+            A dedicated academic and professional with years of experience in both academia and the software industry.
+            As an <strong>HEC-approved supervisor</strong>, I have mentored numerous students toward innovation and excellence,
             including one who received the prestigious <strong>Prime Minister Youth Innovation Award</strong> in 2023.
           </p>
 
@@ -72,7 +72,7 @@ const Hero = () => {
                 Academic Leadership
               </h3>
               <p className="text-gray-700 mt-1 pl-6">
-                Currently serving as <strong>Lecturer in Software Engineering</strong>, specializing in core courses, 
+                Currently serving as <strong>Lecturer in Software Engineering</strong>, specializing in core courses,
                 research, and outcome-based learning approaches.
               </p>
             </div>
@@ -83,8 +83,8 @@ const Hero = () => {
                 STEM Advocacy
               </h3>
               <p className="text-gray-700 mt-1 pl-6">
-                As <strong>Co-Director of Women in Big Data (Pakistan)</strong>, I spearhead initiatives to help women 
-                gain expertise in data science and software engineering. IVLP alumna under "Promoting STEM for Girls."
+                As <strong>Co-Director of Women in Big Data (Pakistan)</strong>, I spearhead initiatives to help women
+                gain expertise in data science and software engineering. IVLP alumna under &quot;Promoting STEM for Girls.&quot;
               </p>
             </div>
 
@@ -94,7 +94,7 @@ const Hero = () => {
                 Research Focus
               </h3>
               <p className="text-gray-700 mt-1 pl-6">
-                My work in <strong>gamification, NLP, and generative AI</strong> includes developing Gamify4Req, 
+                My work in <strong>gamification, NLP, and generative AI</strong> includes developing Gamify4Req,
                 a tool to reduce ambiguity in natural language requirements. Active reviewer for reputed journals.
               </p>
             </div>
@@ -102,14 +102,14 @@ const Hero = () => {
 
           <div className="mt-8 bg-teal-50 p-4 rounded-lg border border-teal-100">
             <p className="text-gray-800 italic">
-              "Driven by a vision of inclusive and sustainable growth in technology and education. 
-              Let's connect to collaborate, innovate, and create impactful solutions!"
+              &quot;Driven by a vision of inclusive and sustainable growth in technology and education. 
+              Let&apos;s connect to collaborate, innovate, and create impactful solutions!&quot;
             </p>
           </div>
         </div>
       </div>
     </main>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

@@ -1,4 +1,3 @@
-// components/ui/navbar.tsx
 "use client";
 
 import Link from "next/link";
@@ -20,7 +19,7 @@ export default function Navbar() {
       <div className="flex items-center justify-between max-w-7xl mx-auto">
         {/* Left - Name */}
         <div className="text-xl font-semibold hover:text-teal-100 transition-colors duration-300">
-          <Link href="/">Hafsa S Dar</Link>
+          <Link href="/">Dr. Hafsa Shareef Dar</Link>
         </div>
 
         {/* Mobile Menu Button */}
