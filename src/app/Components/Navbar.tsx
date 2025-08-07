@@ -9,9 +9,9 @@ export default function Navbar() {
 
   const navLinks = [
     { href: "/", label: "Home" },
-    { href: "/projects", label: "Projects" },
-    { href: "/blog", label: "Blog" },
-  { href: "/Publications", label: "Publications" }, // Fixed path
+    { href: "/Projects", label: "Projects" },
+    { href: "/Blog", label: "Blog" },
+{ href: "/publications", label: "Publications" }
   ];
 
   return (
